@@ -738,3 +738,9 @@ p {
   }
 }
 /* End  Media Query For Desktop */
+/* Media query for Phone */
+@media only screen and (max-width: 480px) {
+  .hero-text {
+    margin-top: 100px;
+  }
+}
