@@ -339,6 +339,22 @@ p {
   color: white;
   text-align: left;
 }
+#Total-supply .icon img {
+  border-radius: 50%;
+  border: #e1e6ec dotted 1px;
+}
+#presale .icon img {
+  border-radius: 50%;
+  border: #e1e6ec dotted 1px;
+}
+#Black-hole .icon img {
+  border-radius: 50%;
+  border: #e1e6ec dotted 1px;
+}
+#Liquidity .icon img {
+  border-radius: 50%;
+  border: #e1e6ec dotted 1px;
+}
 /* End Services Section */
 
 /* Projects section */
@@ -388,6 +404,12 @@ p {
   margin-top: 10px;
 }
 #projects .project-info p {
+  color: white;
+}
+#projects .project-info p a {
+  color: crimson;
+}
+#projects.project-info p a:hover {
   color: white;
 }
 #projects .project-img {
@@ -535,7 +557,7 @@ p {
   margin: 0 5px;
 }
 #footer .social-item img {
-  filter: grayscale(1);
+  filter: grayscale(0);
   transition: 0.3s ease filter;
 }
 #footer .social-item:hover img {
