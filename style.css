@@ -24,6 +24,11 @@ img {
   width: 100%;
   object-fit: cover;
 }
+.logo img {
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 10px;
+}
 p {
   color: black;
   font-size: 1.4rem;
@@ -61,6 +66,10 @@ p {
 .cta:hover {
   color: white;
   background-color: green;
+}
+.brand {
+  display: flex;
+  flex-direction: row;
 }
 .brand h1 {
   font-size: 3rem;
